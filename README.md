@@ -1,4 +1,6 @@
 # 332 Final Project
+Project Members: Anjali Patel, Dane Camacho, Srinidhi Chevvuri
+*Class: CPSC 332, Spring 2024*
 
 Using the MySQL database and PHP to build a web database application. 
 
@@ -6,5 +8,4 @@ Using the MySQL database and PHP to build a web database application.
 2. Construct the corresponding relational model with primary and foreign keys
 3. Source code the project including the DDL, SQL, PHP
 
-Project Members: Anjali Patel, Dane Camacho, Srinidhi Chevvuri
-Class: CPSC 332, Spring 2024
+
