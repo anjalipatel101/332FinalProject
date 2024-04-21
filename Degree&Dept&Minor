@@ -25,3 +25,14 @@ INSERT INTO Department VALUES
   (1, 'Computer Science', 6572782200, 12345, 'CS Building'),
   (2, 'Engineering', 6572782211, 67890, 'ENGR Building');
 
+##############################################################
+
+#Creating the Minor table 
+
+CREATE TABLE Minor(
+  STUDENTNUM INT, 
+  DNO INT,
+  PRIMARY KEY (STUDENTNUM, DNO),
+  FOREIGN KEY (STUDENTNUM) REFERENCES Student(CWID), 
+  FOREIGN KEY (DNO) REFERENCES Department('dept#')
+};
