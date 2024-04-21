@@ -1,0 +1,22 @@
+#Creates the Professor's Table 
+
+CREATE TABLE Professor(
+  SSN INT PRIMARY KEY,
+  name VARCHAR(100),
+  title VARCHAR(50),
+  sex ENUM('M', 'F'),
+  salary INT,
+  area_code VARCHAR(5),
+  phone_number VARCHAR(7),
+  street_address VARCHAR(??),   //What do we put here?? v
+  city VARCHAR(??),
+  state VARCHAR(50),
+  zipcode VARCHAR(5)
+);
+
+#This includes the professor values (temp) 
+
+INSERT INTO Professor VALUES
+  (12345, 'Shawn Wang', 'Professor', 'M', 100000, '657', '2583100', '800 N State College Blvd', 'Fullerton', 'CA', '92831'),
+  (36912, 'Professor Two', 'Associate Professor', 'F', 80000, '714', '1234567', '555 Imperial Blvd', 'Brea', 'CA', '92821'),
+  (24689, 'Professor Three', 'Assistant Professor', 'M', 70000, '310', '9876543', '123 Palm Ave', 'Dallas', 'TX', '67890');
