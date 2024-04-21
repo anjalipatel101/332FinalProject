@@ -1,0 +1,5 @@
+#Creating the Enrollment Record table 
+
+CREATE TABLE EnrollmentRecord(
+  
+};
