@@ -1,0 +1,9 @@
+#Creating the Minor table 
+
+CREATE TABLE Minor(
+  STUDENTNUM INT, 
+  DNO INT,
+  PRIMARY KEY (STUDENTNUM, DNO),
+  FOREIGN KEY (STUDENTNUM) REFERENCES Student(CWID), 
+  FOREIGN KEY (DNO) REFERENCES Department('dept#')
+};
