@@ -1,0 +1,27 @@
+# Creating the Degree(s) table
+
+CREATE TABLE Degrees(
+  PSSN INT PRIMARY KEY, 
+  degree  VARCHAR (??),       //What do we put in this value?? 
+  FOREIGN KEY(PSSN) REFERENCES Professor(SSN)
+);
+
+##############################################################
+
+# Creating the Departments table
+
+CREATE TABLE Department (
+  `dept#` INT PRIMARY KEY,
+  name VARCHAR(??),           //What do we put in this value?? 
+  telephone VARCHAR(15),
+  PSSN INT,
+  officelocation VARCHAR(??),          //What do we put in this value?? 
+  FOREIGN KEY (PSSN) REFERENCES Professor(SSN)
+);
+
+#Inserting/Defining the two departments 
+
+INSERT INTO Department VALUES
+  (1, 'Computer Science', 6572782200, 12345, 'CS Building'),
+  (2, 'Engineering', 6572782211, 67890, 'ENGR Building');
+
