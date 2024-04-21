@@ -7,4 +7,11 @@ Using the MySQL database and PHP to build a web database application.
 2. Construct the corresponding relational model with primary and foreign keys
 3. Source code the project including the DDL, SQL, PHP
 
+Design of DB (number of records): 
+- 8 students
+- 2 departments
+- 3 professors
+- 4 courses
+- 6 sections
+- 20 enrollment records
 
