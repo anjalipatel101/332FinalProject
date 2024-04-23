@@ -1,5 +1,10 @@
 #Creating the Enrollment Record table 
 
 CREATE TABLE EnrollmentRecord(
+  CourseNum INT(6),
+  SecNum INT(2),
+  CWID VARCHAR(9),
+  Grade VARCHAR(2),
   
-};
+  PRIMARY KEY (CourseNum,SecNum,CWID);
+);
