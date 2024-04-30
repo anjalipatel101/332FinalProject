@@ -1,9 +1,9 @@
 CREATE TABLE Course(
-  course_number VARCHAR(10) PRIMARY KEY,
-  Title VARCHAR(60),
+  course_number VARCHAR(15) PRIMARY KEY,
+  Title VARCHAR(50),
   unit INT,   #num of units
   DNO INT,    #dept num
-  textbook VARCHAR(30),
+  textbook VARCHAR(50),
   FOREIGN KEY (DNO) REFERENCES Department(`Department_#`)
 );
 
@@ -25,7 +25,7 @@ CREATE TABLE Section(
   CNO VARCHAR(10),
   start_time TIME,
   end_time TIME,
-  meeting_days VARCHAR(20),                                             #I think we need to clarify this varchar ***
+  meeting_days VARCHAR(10),                                             #I think we need to clarify this varchar ***
   seats INT,
   PSSN INT,
   FOREIGN KEY (CNO) REFERENCES Course(course_number),
