@@ -4,13 +4,13 @@ CREATE TABLE Professor(
   SSN INT PRIMARY KEY,
   name VARCHAR(100),
   title VARCHAR(50),
-  sex ENUM('M', 'F'),
+  sex ENUM('M', 'F'),                #This ENUM allows us to ensure that each has one of the specified types
   salary INT,
   area_code VARCHAR(5),
   phone_number VARCHAR(7),
-  street_address VARCHAR(??),   //What do we put here?? v
-  city VARCHAR(??),
-  state VARCHAR(50),
+  street_address VARCHAR(50),   
+  city VARCHAR(30),
+  state VARCHAR(60),
   zipcode VARCHAR(5)
 );
 
