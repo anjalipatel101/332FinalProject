@@ -1,3 +1,5 @@
+# Creating the Course table
+
 CREATE TABLE Course(
   course_number VARCHAR(15) PRIMARY KEY,
   Title VARCHAR(50),
@@ -19,6 +21,7 @@ INSERT INTO Course (course_number, Title, unit, DNO, textbook) VALUES
 
 ###########################################################################
 
+# Creating the Section table
 
 CREATE TABLE Section(
   section_number INT PRIMARY KEY,
