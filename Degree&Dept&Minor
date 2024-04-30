@@ -2,7 +2,7 @@
 
 CREATE TABLE Degrees(
   PSSN INT PRIMARY KEY, 
-  degree  VARCHAR (??),       //What do we put in this value?? 
+  degree  VARCHAR (100),      
   FOREIGN KEY(PSSN) REFERENCES Professor(SSN)
 );
 
@@ -12,10 +12,10 @@ CREATE TABLE Degrees(
 
 CREATE TABLE Department (
   `dept#` INT PRIMARY KEY,
-  name VARCHAR(??),           //What do we put in this value?? 
+  name VARCHAR(75),           
   telephone VARCHAR(15),
   PSSN INT,
-  officelocation VARCHAR(??),          //What do we put in this value?? 
+  officelocation VARCHAR(50)          
   FOREIGN KEY (PSSN) REFERENCES Professor(SSN)
 );
 
