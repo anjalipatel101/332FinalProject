@@ -4,7 +4,7 @@ CREATE TABLE Student(
   CWID INT PRIMARY KEY,
   fname VARCHAR(50),
   lname VARCHAR(50),
-  address VARCHAR(??),   //What do we put here?? v
+  address VARCHAR(50),  
   phoneno INT,
   DNO INT,
   FOREIGN KEY (DNO) REFERENCES Department(`Department_#`)
