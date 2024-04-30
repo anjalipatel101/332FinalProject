@@ -1,1 +1,15 @@
+CREATE TABLE Course(
+  course_number VARCHAR(10) PRIMARY KEY,
+  Title VARCHAR(60),
+  unit INT,
+  DNO INT, -- assuming this is the department number
+  textbook VARCHAR(30),
+  FOREIGN KEY (DNO) REFERENCES Department(`Department_#`)
+);
 
+Courses: 308, 332, 335, 203
+INSERT INTO Course (course_number, Title, unit, DNO, textbook) VALUES
+('EGEE 308', 'Engineering Analysis', 3, 2, 'Engineering: Electricals'),
+('CPSC 332', 'Intro to Databases', 3, 1, ‘Database Fundamentals’),
+(‘CPSC 335’, ‘Intro to Algorithims’, 3, 1, 'Intro to Algo'),
+('EGEE 203', 'Electric Circuits', 3, 2, 'Circuits');
