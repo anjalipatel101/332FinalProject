@@ -1,0 +1,3 @@
+PHP Approach Ideas: 
+- Establish the connection to the DB
+- 4 parts: Professor -> SSN, Professor -> Course, Student -> CWID, Student -> Course
