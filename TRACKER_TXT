@@ -16,8 +16,13 @@ WEEK 2:
   ~ Finish the SQL statements
   ~ Everyone review and make any necessary changes by Wednesday (May 1st) 
 
-- Thursday 5/2 @1pm
+- Sunday 5/2 @1pm
   ~ Confirm agreements on the SQL 
   ~ Begin PHP 
   ~ Someone may be able to just do the HTML because it should be quick
 
+___________________________________________________________________________
+
+PHP Approach Ideas: 
+- Establish the connection to the DB
+- 4 parts: Professor -> SSN, Professor -> Course, Student -> CWID, Student -> Course
