@@ -6,5 +6,5 @@ CREATE TABLE EnrollmentRecord(
   CWID VARCHAR(9),
   Grade VARCHAR(2),
   
-  PRIMARY KEY (CourseNum,SecNum,CWID);
+  FOREIGN KEY (CourseNum,SecNum,CWID);
 );
