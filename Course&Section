@@ -15,8 +15,8 @@ CREATE TABLE Course(
 
 INSERT INTO Course (course_number, Title, unit, DNO, textbook) VALUES
   ('EGEE 308', 'Engineering Analysis', 3, 2, 'Engineering: Electricals'),
-  ('CPSC 332', 'Intro to Databases', 3, 1, ‘Database Fundamentals’),  
-  (‘CPSC 335’, ‘Intro to Algorithims’, 3, 1, 'Intro to Algo'),
+  ('CPSC 332', 'Intro to Databases', 3, 1, 'Database Fundamentals'),  
+  ('CPSC 335', 'Intro to Algorithims', 3, 1, 'Intro to Algo'),
   ('EGEE 203', 'Electric Circuits', 3, 2, 'Circuits');
 
 ###########################################################################
