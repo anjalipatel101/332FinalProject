@@ -14,10 +14,10 @@ CREATE TABLE Course(
 ## Chosen Courses: 308, 332, 335, 203
 
 INSERT INTO Course (course_number, Title, unit, DNO, textbook) VALUES
-  ('EGEE 308', 'Engineering Analysis', 3, 2, 'Engineering: Electricals'),
+  ('EGEC 308', 'Engineering Analysis', 3, 2, 'Engineering: Electricals'),
   ('CPSC 332', 'Intro to Databases', 3, 1, 'Database Fundamentals'),  
   ('CPSC 335', 'Intro to Algorithims', 3, 1, 'Intro to Algo'),
-  ('EGEE 203', 'Electric Circuits', 3, 2, 'Circuits');
+  ('EGEC 203', 'Electric Circuits', 3, 2, 'Circuits');
 
 ###########################################################################
 
@@ -36,11 +36,11 @@ CREATE TABLE Section(
 );
 
 INSERT INTO Section VALUES
-  (01, 'EGCE 308', '16:00', '17:50', 'MWF', 30, 12345),
+  (01, 'EGEC 308', '16:00', '17:50', 'MWF', 30, 12345),
   (03, 'CPSC 332', '12:00', '13:15', 'MW',  30, 36912),
   (02, 'CPSC 335', '10:00', '11:50', 'TTH', 30, 24689),
-  (04, 'EGCE 203', '10:00', '10:50', 'MWF', 30, 36912),
+  (04, 'EGEC 203', '10:00', '10:50', 'MWF', 30, 36912),
   (05, 'CPSC 332', '08:00', '09:50', 'TTH', 30, 36912),    #another section the professor teaches
-  (06, 'EGCE 308', '16:00', '17:00', 'TTH', 30, 24689);    #another section the professor teaches
+  (06, 'EGEC 308', '16:00', '17:00', 'TTH', 30, 24689);    #another section the professor teaches
 
 
