@@ -41,6 +41,6 @@ INSERT INTO Section VALUES
   (02, 'EGCE 335', '10:00', '11:50', 'TTH', 30, 24689),
   (04, 'EGCE 203', '10:00', '10:50', 'MWF', 30, 36912),
   (05, 'CPSC 332', '08:00', '09:50', 'TTH', 30, 36912),    #another section the professor teaches
-  (06, 'CPSC 308', '16:00', '17:00', 'TTH', 30, 24689);    #another section the professor teaches
+  (06, 'EGCE 308', '16:00', '17:00', 'TTH', 30, 24689);    #another section the professor teaches
 
 
