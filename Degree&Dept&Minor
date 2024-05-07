@@ -23,7 +23,7 @@ CREATE TABLE Department (
 
 INSERT INTO Department VALUES
   (1, 'Computer Science', 6572782200, 'CS Building', 12345),
-  (2, 'Engineering', 6572782211, 67890, 'ENGR Building');
+  (2, 'Engineering', 6572782211,  'ENGR Building', 36912);
 
 ##############################################################
 
