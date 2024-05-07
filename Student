@@ -7,7 +7,7 @@ CREATE TABLE Student(
   address VARCHAR(50),  
   phoneno INT,
   DNO INT,
-  FOREIGN KEY (DNO) REFERENCES Department(`Department_#`)
+  FOREIGN KEY (DNO) REFERENCES Department(`Dept#`)
 );
 
 #This includes the student values (temp) 
