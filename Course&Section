@@ -37,10 +37,10 @@ CREATE TABLE Section(
 
 INSERT INTO Section VALUES
   (01, 'CPSC 308', '16:00', '17:50', 'MWF', 35, 12345),
-  (03, 'CPSC 332', '12:00', '13:15', 'MW', 35, 98761),
-  (02, 'EGCE 335', '10:00', '11:50', 'TTH', 35, 12121),
-  (04, 'EGCE 203', '10:00', '10:50', 'MWF', 35, 34343),
-  (05, 'CPSC 332', '08:00', '09:50', 'TTH', 35, 98761),    #another section the professor teaches
-  (06, 'CPSC 308', '16:00', '17:00', 'TTH', 35, 12345);    #another section the professor teaches
+  (03, 'CPSC 332', '12:00', '13:15', 'MW', 35, 36912),
+  (02, 'EGCE 335', '10:00', '11:50', 'TTH', 35, 24689),
+  (04, 'EGCE 203', '10:00', '10:50', 'MWF', 35, 36912),
+  (05, 'CPSC 332', '08:00', '09:50', 'TTH', 35, 36912),    #another section the professor teaches
+  (06, 'CPSC 308', '16:00', '17:00', 'TTH', 35, 24689);    #another section the professor teaches
 
 
