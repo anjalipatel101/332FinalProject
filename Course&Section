@@ -6,7 +6,7 @@ CREATE TABLE Course(
   unit INT,   #num of units
   DNO INT,    #dept num
   textbook VARCHAR(50),
-  FOREIGN KEY (DNO) REFERENCES Department(`Department_#`)
+  FOREIGN KEY (DNO) REFERENCES Department(`Dept#`)
 );
 
                                                                       ##### CAN WE PUT THE FOREIGN KEY LIKE THIS????? #########
