@@ -3,7 +3,7 @@
 CREATE TABLE EnrollmentRecord(
   CourseNum VARCHAR(15),
   SecNum INT(2),
-  CWID VARCHAR(9),
+  CWID INT,
   Grade VARCHAR(2),
   
   FOREIGN KEY (CourseNum) REFERENCES Section(CNO),
