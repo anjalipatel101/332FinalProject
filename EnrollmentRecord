@@ -6,7 +6,9 @@ CREATE TABLE EnrollmentRecord(
   CWID VARCHAR(9),
   Grade VARCHAR(2),
   
-  FOREIGN KEY (CourseNum,SecNum,CWID);
+  FOREIGN KEY (CourseNum) REFERENCES Section(CNO),
+  FOREIGN KEY (SecNum) REFERENCES Section(section_number),
+  FOREIGN KEY (CWID) REFERENCES Student(CWID)
 );
 
 
