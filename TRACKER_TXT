@@ -19,10 +19,14 @@ WEEK 2:
 - Sunday 5/2 @1pm
   ~ Confirm agreements on the SQL 
   ~ Begin PHP 
-  ~ Someone may be able to just do the HTML because it should be quick
+  X Someone may be able to just do the HTML because it should be quick
 
+~ Tuesday 5/7 @1pm 
+   ~ Confirm agreements on the SQL / test
+   ~ Go over PHP
 ___________________________________________________________________________
 
 PHP Approach Ideas: 
 - Establish the connection to the DB
 - 4 parts: Professor -> SSN, Professor -> Course, Student -> CWID, Student -> Course
+
