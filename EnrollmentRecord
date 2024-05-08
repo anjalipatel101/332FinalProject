@@ -33,5 +33,6 @@ INSERT INTO EnrollmentRecord VALUES
   ('EGEC 308', 06, 886342222, 'D+'),
   ('EGEC 308', 06, 886343333, 'D+'),
   ('EGEC 308', 06, 886358989, 'D');
+  ('EGEC 308', 06, 886342000, 'D');
 
 
