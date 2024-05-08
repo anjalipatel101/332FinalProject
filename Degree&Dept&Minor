@@ -28,6 +28,7 @@ INSERT INTO Department VALUES
 ##############################################################
 
 #Creating the Minor table 
+#Do  we need to keep this? This is just to show the relation between student & dept regarding the minor????
 
 CREATE TABLE Minor(
   STUDENTNUM INT, 
