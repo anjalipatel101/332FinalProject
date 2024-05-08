@@ -2,7 +2,7 @@
 
 CREATE TABLE EnrollmentRecord(
   CourseNum VARCHAR(15),
-  SecNum INT(2),
+  SecNum INT,
   CWID INT,
   Grade VARCHAR(2),
   
