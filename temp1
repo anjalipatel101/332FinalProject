@@ -24,6 +24,7 @@
                 <h2>Welcome to the CSUF Student & Faculty Database</h2>
                 <p>Click around to gain information about students and faculty members at CSUF.</p>
             </section>
+          <br><br>
             <aside class="sidebar">
                 <h3>Quick Links</h3>
              </aside>
@@ -60,4 +61,3 @@
 </body>
 
 </html>
-
