@@ -1,27 +1,26 @@
 ######## NEED TO FIX - DO NOT USE ###################
 
-***STARTER CODE*********
-
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* light grayish background */
-    color: #333; /* dark text color */
-    margin: 20px; /* Add margin for spacing */
+    background-color: #EFDFBB; 
+    color: #333; 
+    margin: 20px; 
 }
 
 header {
-    background-color: #e74c3c; /* Darker shade of orange */
-    color: #fff; /* white text color */
+    background-color: #CC5500; 
+    color: #fff; 
     padding: 10px;
-    margin-bottom: 20px; /* Add margin below header */
+    margin-bottom: 20px; 
+  	text-align: center;
 }
 
 nav {
-    background-color: #3498db; /* Dark blue */
+    background-color: #2E5A88; 
     padding: 10px 0;
-    margin-bottom: 20px; /* Add margin below navigation */
-    text-align: center; /* Center the links */
+    margin-bottom: 20px; 
+    text-align: center; 
 }
 
 nav ul {
@@ -44,30 +43,29 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #2980b9; 
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px; /* Limit width of content */
-    margin: 0 auto;
-}
+
 
 .main-content {
     flex: 1; /* Fill remaining space */
-    padding: 20px;
-    background-color: #fff; /* white background for main content */
+    padding: 10px;
+    background-color: #528AAE; 
     margin-right: 10px;
     border-radius: 5px;
-    color: #444; /* Darker text color for content */
+  	text-align: center;
+    color: #fff; /* Darker text color for content */
+  	font-size: 14px;
+  	font-style: italic;
 }
 
 .sidebar {
     width: 30%;
-    padding: 20px;
-    background-color: #e74c3c; /* Darker shade of orange */
+    padding: 5px;
+    background-color: #FBBF77;
     border-radius: 5px;
+    text-align: center;
 }
 
 form {
@@ -83,7 +81,7 @@ legend {
 }
 
 label {
-    color: #444; /* Darker color for labels */
+    color: #444; 
 }
 
 input[type="text"] {
@@ -94,8 +92,8 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: #3498db; /* Dark blue submit button */
-    color: #fff; /* white text color for button */
+    background-color: #2E5A88;
+    color: #fff; 
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -103,5 +101,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #2980b9; /* Slightly darker blue on hover */
+    background-color: #2980b9; 
 }
