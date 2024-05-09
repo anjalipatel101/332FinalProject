@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>CSUF Database Portal</title>
-<link rel="stylesheet" href="index.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSUF Database Portal</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<header>
-<h1>CSUF Database Portal</h1>
-</header>
+    <header>
+        <h1>CSUF Database Portal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Courses</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="main-content">
+                <h2>Welcome to the CSUF Student & Faculty Database</h2>
+                <p>Click around to gain information about students and faculty members at CSUF.</p>
+            </section>
+            <aside class="sidebar">
+                <h3>Quick Links</h3>
+             </aside>
+        </div>
+
+        <form action="databases.php" method="POST">
+            <fieldset>
+                <legend>Professor Information</legend>
+                <label for="prof_ssn">Enter a Professor's Social Security Number:</label><br>
+                <input type="text" id="prof_ssn" name="prof_ssn" required><br>
+                <label for="course_num">Enter a Course number (ie: CPSC, EGEC):</label><br>
+                <input type="text" id="course_num" name="course_num"><br>
+                <label for="section_num">Enter a Section number (01 ~ 06):</label><br>
+                <input type="text" id="section_num" name="section_num"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Student Information</legend>
+                <label for="student_course_num">Enter a Course Number to List All Sections:</label><br>
+                <input type="text" id="student_course_num" name="student_course_num"><br>
+                <label for="student_cwid">Enter a Student's Campus-Wide ID:</label><br>
+                <input type="text" id="student_cwid" name="student_cwid"><br>
+            </fieldset>
+			<br><br>
+            <input type="submit" value="Submit">
+            
+        </form>
+    </main>
+
+    <footer>
+        <p> 332 Project: Anjali Patel, Dane Camacho, Srinidhi Chevvuri</p>
+    </footer>
+</body>
+
+</html>
+
