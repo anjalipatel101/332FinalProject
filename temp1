@@ -47,13 +47,14 @@
                 <label for="student_cwid">Enter a Student's Campus-Wide ID:</label><br>
                 <input type="text" id="student_cwid" name="student_cwid"><br>
             </fieldset>
-			<br><br>
+		<br><br>
             <input type="submit" value="Submit">
-            
+            	<br><br>
         </form>
     </main>
 
     <footer>
+
         <p> 332 Project: Anjali Patel, Dane Camacho, Srinidhi Chevvuri</p>
     </footer>
 </body>
