@@ -70,7 +70,7 @@
         $result = $stmt->get_result();
 
         while ($row = $result->fetch_assoc()) {
-            echo "Grade: " . $row["Grade"]. "- Count: " . $row["count"]. "<br>";
+            echo "Section Number: " . $row["section_number"]. "- Days: " . $row["meeting_days"]. "- Start Time: " . $row["start_time"]. "- End Time: " . $row["end_time"]. "- Enrolled Students: " . $row["student_enrolled"]. "<br>";
         }
         $stmt->close();
     }
