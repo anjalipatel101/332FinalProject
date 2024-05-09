@@ -45,7 +45,7 @@
             GROUP BY EnrollmentRecord.Grade";
 
     $stmt = $conn->prepare($query);
-    $stmt->bind_param("s", $courseNum, $sectionNum);
+    $stmt->bind_param("si", $courseNum, $sectionNum);
     $stmt->execute();
     $result = $stmt->get_result();
 
@@ -85,7 +85,7 @@
             WHERE Student.CWID = ?";
 
         $stmt = $conn->prepare($query);
-        $stmt->bind_param("s", $studentCWID);
+        $stmt->bind_param("i", $studentCWID);
         $stmt->execute();
         $result = $stmt->get_result();
 
