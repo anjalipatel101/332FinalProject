@@ -1,1 +1,107 @@
+######## NEED TO FIX - DO NOT USE ###################
 
+***STARTER CODE*********
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* light grayish background */
+    color: #333; /* dark text color */
+    margin: 20px; /* Add margin for spacing */
+}
+
+header {
+    background-color: #e74c3c; /* Darker shade of orange */
+    color: #fff; /* white text color */
+    padding: 10px;
+    margin-bottom: 20px; /* Add margin below header */
+}
+
+nav {
+    background-color: #3498db; /* Dark blue */
+    padding: 10px 0;
+    margin-bottom: 20px; /* Add margin below navigation */
+    text-align: center; /* Center the links */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Display inline for horizontal layout */
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff; /* white text color for links */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px; /* Limit width of content */
+    margin: 0 auto;
+}
+
+.main-content {
+    flex: 1; /* Fill remaining space */
+    padding: 20px;
+    background-color: #fff; /* white background for main content */
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #444; /* Darker text color for content */
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: #e74c3c; /* Darker shade of orange */
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    color: #444; /* Darker color for labels */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3498db; /* Dark blue submit button */
+    color: #fff; /* white text color for button */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+}
