@@ -34,3 +34,45 @@ PHP Approach Ideas:
 - Establish the connection to the DB
 - 4 parts: Professor -> SSN, Professor -> Course, Student -> CWID, Student -> Course
 
+________________________________________________________________________
+
+Professor Part B: 
+
+if the gCNO = CNO & gSNO = SNO: 
+  for each(student  who's sCNO = gCNO): 
+      a = sgrade.append()
+
+for all i in a: 
+  switch A: 
+    test1 += 0
+    #repeat to increase counter 
+  switch A-: 
+     #go through the rest of the grades
+
+display all the variables test1....
+
+________________________________________________________________________________
+
+Student Part A: 
+
+for all the students in the DB: 
+  if the  CNO = sCNO: 
+      if the SNO = sSNO: 
+        if section1 
+          studentcounter1 += 0
+          print studentcounter1
+          print classroom 
+          print section days/times
+
+        if section2 
+           ..........
+
+        
+____________________________________________________________________________________
+  
+  
+
+
+
+
+
