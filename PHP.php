@@ -60,9 +60,9 @@
 
     //Given Course Number (student)
     if (!empty($studentCourseNum)) {
-        $query = "SELECT Section.section_number, Section.meeting_days, Section.start_time, Section.end_time, COUNT(EnrollmentRecord.CWID) AS student_enrolled
+        $query = "SELECT Section.section_number, Section.meeting_days, Section.start_time, Section.end_time, Section.classroom, COUNT(EnrollmentRecord.CWID) AS student_enrolled
             FROM Section
-            JOIN Course ON Section.CourseNum = Course.course_number
+            JOIN Course ON Section.CNO = Course.course_number
             LEFT JOIN EnrollmentRecord ON Section.section_number = EnrollmentRecord.SecNum
             WHERE Course.course_number = ?
             GROUP BY Section.section_number";
@@ -73,7 +73,7 @@
         $result = $stmt->get_result();
 
         while ($row = $result->fetch_assoc()) {
-            echo "Section Number: " . $row["section_number"]. "- Days: " . $row["meeting_days"]. "- Start Time: " . $row["start_time"]. "- End Time: " . $row["end_time"]. "- Enrolled Students: " . $row["student_enrolled"]. "<br>";
+            echo "Section Number: " . $row["section_number"]. "- Days: " . $row["meeting_days"]. "- Start Time: " . $row["start_time"]. "- End Time: " . $row["end_time"]. "- Enrolled Students: " . $row["student_enrolled"]. "- Classroom: ". $row["classroom"]."<br>";
         }
         $stmt->close();
     }
