@@ -1,0 +1,105 @@
+######## NEED TO FIX - IN PROGRESS ###################
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EFDFBB; 
+    color: #333; 
+    margin: 20px; 
+}
+
+header {
+    background-color: #CC5500; 
+    color: #fff; 
+    padding: 10px;
+    margin-bottom: 20px; 
+  	text-align: center;
+}
+
+nav {
+    background-color: #2E5A88; 
+    padding: 10px 0;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Display inline for horizontal layout */
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff; /* white text color for links */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #2980b9; 
+}
+
+
+
+.main-content {
+    flex: 1; /* Fill remaining space */
+    padding: 10px;
+    background-color: #528AAE; 
+    margin-right: 10px;
+    border-radius: 5px;
+  	text-align: center;
+    color: #fff; /* Darker text color for content */
+  	font-size: 14px;
+  	font-style: italic;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 5px;
+    background-color: #FBBF77;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    color: #444; 
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #2E5A88;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9; 
+}

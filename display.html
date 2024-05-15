@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSUF Database Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CSUF Database Portal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Courses</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="main-content">
+                <h2>Welcome to the CSUF Student & Faculty Database</h2>
+                <p>Click around to gain information about students and faculty members at CSUF.</p>
+            </section>
+          <br><br>
+            <aside class="sidebar">
+                <h3>Quick Links</h3>
+             </aside>
+        </div>
+
+        <form action="project.php" method="POST">
+            <fieldset>
+                <legend>Professor Information</legend>
+                <label for="prof_Ssn">Enter a Professor's Social Security Number:</label><br>
+                <input type="text" id="prof_Ssn" name="prof_Ssn"I><br>
+                <label for="course_Num">Enter a Course number (ie: CPSC, EGEC):</label><br>
+                <input type="text" id="course_Num" name="course_Num"><br>
+                <label for="section_Num">Enter a Section number (01 ~ 06):</label><br>
+                <input type="text" id="sec_Num" name="sec_Num"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Student Information</legend>
+                <label for="student_course_num">Enter a Course Number to List All Sections:</label><br>
+                <input type="text" id="student_course_num" name="student_course_num"><br>
+                <label for="stud_Cwid">Enter a Student's Campus-Wide ID:</label><br>
+                <input type="text" id="stud_Cwid" name="stud_Cwid"><br>
+            </fieldset>
+                <br><br>
+            <input type="submit" value="Submit">
+                <br><br>
+        </form>
+    </main>
+
+    <footer>
+
+        <p> 332 Project: Anjali Patel, Dane Camacho, Srinidhi Chevvuri</p>
+    </footer>
+</body>
+
+</html>
+
