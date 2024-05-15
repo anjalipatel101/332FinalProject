@@ -39,18 +39,15 @@
 
     //Given Course Num and Sec Num (Professor)
     if (!empty($courseNum)&& !empty($sectionNum)) {
-        echo "ALSKJFLDJAFLJSDFLKJFDLKJFS <br>";
         $query = "SELECT EnrollmentRecord.Grade, COUNT(*) as count
             FROM EnrollmentRecord
-            WHERE EnrollmentRecord.course_num = ?  AND EnrollmentRecord.section_number = ?
+            WHERE EnrollmentRecord.CourseNum = ?  AND EnrollmentRecord.SecNum = ?
             GROUP BY EnrollmentRecord.Grade";
-
     $stmt = $conn->prepare($query);
     $stmt->bind_param("si", $courseNum, $sectionNum);
     $stmt->execute();
     $result = $stmt->get_result();
 
-    echo $result;
 
     while ($row = $result->fetch_assoc()) {
         echo "Grade: " . $row["Grade"]. "- Count: " . $row["count"]. "<br>";
