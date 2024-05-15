@@ -40,7 +40,7 @@
     //Given Course Num and Sec Num (Professor)
     if (!empty($courseNum)&& !empty($sectionNum)) {
         echo "ALSKJFLDJAFLJSDFLKJFDLKJFS <br>";
-        $query = "SELECT EnrollementRecord.Grade, COUNT(*) as count
+        $query = "SELECT EnrollmentRecord.Grade, COUNT(*) as count
             FROM EnrollmentRecord
             WHERE EnrollmentRecord.course_num = ?  AND EnrollmentRecord.section_number = ?
             GROUP BY EnrollmentRecord.Grade";
