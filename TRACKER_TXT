@@ -1,0 +1,78 @@
+**Project Tracker:**
+
+WEEK 1:  
+- Saturday Night/Sunday Morning 4/20 & 4/21 
+  ~ Creation of the Github Repository 
+  ~ Beginning SQL statements 
+  ~ Declarations/Number of Records 
+  ~ Skeleton Code 
+
+- Tuesday 4/23 @2pm
+  ~ Further discussions on Discord about diagrams - relational schema and ER diagram 
+  ~ Agreed and moved forward with DB design 
+
+WEEK 2: 
+- Monday 4/29 @8pm
+  ~ Finish the SQL statements
+  ~ Everyone review and make any necessary changes by Wednesday (May 1st) 
+
+- Sunday 5/2 @1pm
+  ~ Confirm agreements on the SQL 
+  ~ Begin PHP 
+  X Someone may be able to just do the HTML because it should be quick
+
+~ Tuesday 5/7 @1pm 
+   ~ Confirm agreements on the SQL / test
+   ~ Go over PHP
+
+~ Office Hours @ 1-2pm 
+    ~ Discuss PHP 
+    ~ Need to keep the minor? 
+___________________________________________________________________________
+
+PHP Approach Ideas: 
+- Establish the connection to the DB
+- 4 parts: Professor -> SSN, Professor -> Course, Student -> CWID, Student -> Course
+
+________________________________________________________________________
+
+Professor Part B: 
+
+if the gCNO = CNO & gSNO = SNO: 
+  for each(student  who's sCNO = gCNO): 
+      a = sgrade.append()
+
+for all i in a: 
+  switch A: 
+    test1 += 0
+    #repeat to increase counter 
+  switch A-: 
+     #go through the rest of the grades
+
+display all the variables test1....
+
+________________________________________________________________________________
+
+Student Part A: 
+
+for all the students in the DB: 
+  if the  CNO = sCNO: 
+      if the SNO = sSNO: 
+        if section1 
+          studentcounter1 += 0
+          print studentcounter1
+          print classroom 
+          print section days/times
+
+        if section2 
+           ..........
+
+        
+____________________________________________________________________________________
+  
+  
+
+
+
+
+

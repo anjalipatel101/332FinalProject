@@ -1,0 +1,38 @@
+#Creating the Enrollment Record table 
+
+CREATE TABLE EnrollmentRecord(
+  CourseNum VARCHAR(15),
+  SecNum INT,
+  CWID INT,
+  Grade VARCHAR(2),
+  
+  FOREIGN KEY (CourseNum) REFERENCES Section(CNO),
+  FOREIGN KEY (SecNum) REFERENCES Section(section_number),
+  FOREIGN KEY (CWID) REFERENCES Student(CWID)
+);
+
+
+
+INSERT INTO EnrollmentRecord VALUES
+  ('EGEC 308', 01, 886341111, 'A'),
+  ('EGEC 308', 01, 886342222, 'A'),
+  ('EGEC 308', 01, 886343333, 'A'),
+  ('EGEC 308', 01, 886358989, 'A-'),
+  ('CPSC 335', 02, 886342000, 'A-'),
+  ('CPSC 335', 02, 886342233, 'B+'),
+  ('CPSC 335', 02, 886342424, 'B+'),
+  ('CPSC 332', 03, 886346000, 'B'),
+  ('CPSC 332', 03, 886341111, 'B-'),
+  ('CPSC 332', 03, 886342222, 'B-'),
+  ('EGEC 203', 04, 886343333, 'C+'),
+  ('EGEC 203', 04, 886342000, 'C+'),
+  ('EGEC 203', 04, 886342233, 'C'),
+  ('CPSC 332', 05, 886342424, 'C'),
+  ('CPSC 332', 05, 886346000, 'C-'),
+  ('CPSC 332', 05, 886341111, 'C-'),
+  ('EGEC 308', 06, 886342222, 'D+'),
+  ('EGEC 308', 06, 886343333, 'D+'),
+  ('EGEC 308', 06, 886358989, 'D');
+  ('EGEC 308', 06, 886342000, 'D');
+
+

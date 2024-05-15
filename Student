@@ -1,0 +1,24 @@
+#Creates the Student's Table 
+
+CREATE TABLE Student(
+  CWID INT PRIMARY KEY,
+  fname VARCHAR(50),
+  lname VARCHAR(50),
+  address VARCHAR(50),  
+  DNO INT,
+  phoneno VARCHAR(10),
+  FOREIGN KEY (DNO) REFERENCES Department(`Dept#`)
+);
+
+#This includes the student values (temp) 
+#In the format of the header values in the table created above ^ 
+
+INSERT INTO Student VALUES
+  (886341111, 'Anjali', 'Patel', '1000 Redrock Drive', 1, 7141234567),
+  (886342222, 'Dane', 'Camacho', '2000 Pine Drive', 1, 7149996665),
+  (886343333, 'Srinidhi', 'Chevvuri', '3000 Redwood Drive', 2, 7142352264),
+  (886358989, 'Student', 'Four', '1212 Scooby Drive', 2, 7148865984),
+  (886342000, 'Student', 'Five', '1511 Stirling Drive', 1, 7143265456),
+  (886342233, 'Student', 'Six', '1631 Perri Drive', 1, 7148564411),
+  (886342424, 'Student', 'Seven', '8614 Ox Drive', 2, 7142134464),
+  (886346000, 'Student', 'Eight', '1765 Athena Drive', 1, 7147412338)

@@ -1,0 +1,46 @@
+# Creating the Course table
+
+CREATE TABLE Course(
+  course_number VARCHAR(15) PRIMARY KEY,
+  Title VARCHAR(50),
+  unit INT,   #num of units
+  DNO INT,    #dept num
+  textbook VARCHAR(50),
+  FOREIGN KEY (DNO) REFERENCES Department(`Dept#`),
+  
+);
+
+## Chosen Courses: 308, 332, 335, 203
+
+INSERT INTO Course (course_number, Title, unit, DNO, textbook) VALUES
+  ('EGEC 308', 'Engineering Analysis', 3, 2, 'Engineering: Electricals' ),
+  ('CPSC 332', 'Intro to Databases', 3, 1, 'Database Fundamentals'),  
+  ('CPSC 335', 'Intro to Algorithims', 3, 1, 'Intro to Algo'),
+  ('EGEC 203', 'Electric Circuits', 3, 2, 'Circuits');
+
+###########################################################################
+
+# Creating the Section table
+
+CREATE TABLE Section(
+  section_number INT PRIMARY KEY,
+  CNO VARCHAR(15),
+  start_time TIME,
+  end_time TIME,
+  meeting_days VARCHAR(10),                                            
+  seats INT,
+  PSSN INT,
+  FOREIGN KEY (CNO) REFERENCES Course(course_number),
+  FOREIGN KEY (PSSN) REFERENCES Professor(SSN)
+  classroom VARCHAR(10)
+);
+
+INSERT INTO Section VALUES
+  (01, 'EGEC 308', '16:00', '17:50', 'MWF', 30, 12345, 'E202'),
+  (03, 'CPSC 332', '12:00', '13:15', 'MW',  30, 36912, 'CS110'),
+  (02, 'CPSC 335', '10:00', '11:50', 'TTH', 30, 24689, 'CS110'),
+  (04, 'EGEC 203', '10:00', '10:50', 'MWF', 30, 36912, 'E202'),
+  (05, 'CPSC 332', '08:00', '09:50', 'TTH', 30, 36912, 'CS110'),  
+  (06, 'EGEC 308', '16:00', '17:00', 'TTH', 30, 24689, 'E202');    
+
+
